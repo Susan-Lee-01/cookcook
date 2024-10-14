@@ -1,5 +1,4 @@
-import config from "./config.js";
-const { API_KEY } = config;
+import { API_KEY } from "./config.js";
 
 const request = async (url) => {
   try {
