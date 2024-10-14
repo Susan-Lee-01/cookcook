@@ -1,4 +1,4 @@
-const API_KEY = process.env.API_KEY;
+const API_KEY = window.API_KEY;
 
 const request = async (url) => {
   try {
