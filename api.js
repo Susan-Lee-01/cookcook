@@ -1,4 +1,4 @@
-import { API_KEY } from "./config.js";
+const API_KEY = process.env.API_KEY;
 
 const request = async (url) => {
   try {
