@@ -1,4 +1,5 @@
-const API_KEY = window.API_KEY;
+import { API_KEY } from "./config.js";
+const API_KEY = process.env.REACT_APP_API_KEY;
 
 const request = async (url) => {
   try {
